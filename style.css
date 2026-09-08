@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #8faebe;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    touch-action: none;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+}
+
+#hud {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+
+    padding: 10px 14px;
+
+    background: rgba(20, 20, 20, 0.65);
+    color: white;
+
+    border-radius: 10px;
+
+    z-index: 10;
+}
+
+#hud h2 {
+    font-size: 18px;
+}
+
+#hud p {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+#loading {
+    position: fixed;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 20px;
+
+    z-index: 20;
+}
